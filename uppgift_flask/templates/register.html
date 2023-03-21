@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registera dina uppgifter</title>
+    <style>
+        h1{text-transform:uppercase;
+         border-top:1px solid #57b1dc;
+         border-bottom: 1px solid #57b1dc;"}
+         li{ font-size:large;}
+         p{font-size:large;}
+    </style>
+</head>
+<body>
+ <h1 > Dina uppgifter </h1>
+  <form action="/result_uppgifter" method="POST">
+
+          <p>Låt oss få din hunds information och lära känna varandra mer.</p>
+          <ul>
+          <li><label for="förnamn">Förnamn:</label>
+               <input type="text" name="förnamn" id="förnamn"></li> <br>
+          <li><label for="efternamn">Förnamn:</label>
+               <input type="text" name="efternamn" id="efternamn"></li><br>
+          <li><label for="hundnamn">Hundsnamn:</label>
+               <input type="text" name="hundnamn" id="hundnamn"></li><br>
+          <li><label for="hundkö">Hunds kö:</label>
+               <input type="text" name="hundkö" id="hundkö"></li><br>
+
+              <li><label for="ras">Hunds ras:</label>
+               <input type="text" name="hundras" id="ras"></li>
+
+            <lil><input type="radio" name="ras" value="ren">Renras
+              <input type="radio" name="ras" value="bland">Blandras </lil>
+
+          </ul>
+              <br>
+        <p><input type="submit" value="InLämna Uppgifterna" > </p>
+
+  </form>
+</body>
+</html>
